@@ -1,3 +1,5 @@
+// Ponto de entrada da aplicação
+
 const express = require('express');
 const bodyParser = require('body-parser');
 
