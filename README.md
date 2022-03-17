@@ -16,6 +16,7 @@
 ## Alguns comandos interessantes do sequelize-cli
     - npx sequelize-cli db:migrate
     - npx sequelize-cli seed:generate --name demo-pessoa
+    - npx sequelize-cli db:seed:all
 
 ## Criando tabelas
     - npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
