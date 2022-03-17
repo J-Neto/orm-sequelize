@@ -1,9 +1,10 @@
 // Ponto de entrada das Rotas
 const bodyParser = require('body-parser');
+const pessoas = require('./pessoasRoute');
 
 module.exports = app => {
     app.use(bodyParser.json());
-    app.get('/', (req, res) =>{
-        res.send('Olá!');
-    })
+    
+    // Usando as rotas de pessoas
+    app.use(pessoas);
 }
