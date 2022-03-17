@@ -14,6 +14,7 @@
     - digite: "create database 'escola_ingles'";
 
 ## Alguns comandos interessantes do sequelize-cli
+    - npx init
     - npx sequelize-cli db:migrate
     - npx sequelize-cli seed:generate --name demo-pessoa
     - npx sequelize-cli db:seed:all
