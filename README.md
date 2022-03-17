@@ -13,6 +13,10 @@
     - Faça login no MySQL Server: mysql -h 127.0.0.1 -P 3307 -u root -p
     - digite: "create database 'escola_ingles'";
 
+## Alguns comandos interessantes do sequelize-cli
+    - npx sequelize-cli db:migrate
+    - npx sequelize-cli seed:generate --name demo-pessoa
+
 ## Criando tabelas
     - npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
     
