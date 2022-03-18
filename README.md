@@ -19,8 +19,14 @@
     - npx sequelize-cli seed:generate --name demo-pessoa
     - npx sequelize-cli db:seed:all
 
+## Alguns comandos interessantes do mySQL cli
+    - use [dataTable]
+    - show tables
+
 ## Criando tabelas
     - npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
+    - npx sequelize-cli model:create --name Niveis --attributes descr_nivel:string
+    - npx sequelize-cli model:create --name Turmas --atributes data_inicio:dateonly
     
 ## Módulos utilizados
     - nodemon
