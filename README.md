@@ -27,6 +27,7 @@
     - npx sequelize-cli model:create --name Pessoas --attributes nome:string,ativo:boolean,email:string,role:string
     - npx sequelize-cli model:create --name Niveis --attributes descr_nivel:string
     - npx sequelize-cli model:create --name Turmas --atributes data_inicio:dateonly
+    - npx sequelize-cli model:create --name Matriculas --attributes status:string
     
 ## Módulos utilizados
     - nodemon
